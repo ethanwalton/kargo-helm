@@ -42,8 +42,4 @@ spec:
   - uses: git-push
     config:
       path: ./out
-  - uses: argocd-update
-    config:
-      apps:
-      - name: ${{ vars.argocdApp }}
 
